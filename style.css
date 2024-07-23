@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-weight: 100; */
+}
+
+body {
+    background-image: url(https://wallpapercave.com/wpr/wp14127588.jpg);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 65px;
+    padding: 20px;
+    background: rgb(28, 28, 33);
+    color: white;
+    border-radius: 9px;
+}
+
+header {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.input-field {
+    margin-top: 25px;
+    margin-bottom: 7px;
+    margin-left: -3px;
+}
+
+input{
+    width: 333px;
+    /* height: 30px; */
+    outline: none;
+    font-size: 12px;
+    padding: 15px;
+    font-weight: bold;
+    margin-left: 11px;
+}
+#info-para{
+    font-size: 14px;
+    font-weight: 100;
+    width: 366px;
+    /* border-bottom: 2px solid; */
+    padding: 3px;
+    /* margin-bottom: 10px; */
+    margin-left: 6px;
+    opacity: 0.6;
+}
+
+.content-box{
+    padding: 17px;
+    display: none;
+}
+li{
+    padding: 6px;
+    list-style: none;
+    margin-left: -19px;
+    margin-bottom: 15px;
+    list-style: none;
+}
+.content p{
+    width: 330px;
+}
+.content{
+    border-left: 6px solid purple;
+    padding-left: 10px;
+}
+
+.word-meaning{
+    margin-left: -15px;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid slategrey;
+    padding-bottom: 11px;
+}
+h2{
+    text-transform: capitalize;
+    padding-bottom: 4px;
+}
+.synonyms{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+    font-weight: 100;
+    word-spacing: 1px;
+}
